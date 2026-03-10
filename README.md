@@ -18,7 +18,7 @@ adb push root_rev.sh /sdcard
 
 adb push root.sh /sdcard
 
-adb push mqsasrootshell.sh /sdcard/mqsasrootshell.sh
+adb push mqsasrootshell.sh /sdcard
 
 adb shell
 
