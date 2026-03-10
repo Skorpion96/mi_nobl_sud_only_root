@@ -28,6 +28,12 @@ source /sdcard/mqsasrootshell.sh
 
 mv /sdcard/su /data/mqsas
 
+cd /data/mqsas
+
+chcon u:r:su:s0 su
+
+chmod 777 su
+
 # every boot with permissive cmdline from untrusted_app terminal
 
 source /sdcard/root.sh
