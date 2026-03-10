@@ -10,6 +10,8 @@ fastboot continue
 
 ensure to copy rish from shizuku on a terminal like termux and auth it first.
 
+use this [sud](https://github.com/corellium/sud)
+
 adb push su /sdcard
 
 adb push root_rev.sh /sdcard
