@@ -40,4 +40,6 @@ chmod 777 su
 
 source /sdcard/root.sh
 
+After that you can close the terminal window and exit if there are notifications, the su daemon will continue to run afterwards.
+
 
